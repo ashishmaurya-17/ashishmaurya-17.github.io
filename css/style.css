@@ -7,18 +7,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 body {
-    background: linear-gradient(
-        135deg, 
-        #0a111a 0%, 
-        #0a111a 49.5%, 
-        #FF0000 49.5%, 
-        #FFD700 50.5%, 
-        #FFFFFF 50.5%,
-        #008000 51%,
-        #008000 51%,
-        #1a222c 51%, 
-        #1a222c 100%
-    );
+    background: #0f121a;
+    color: #fff;
+    line-height: 1.6;
+}
+/* This creates the frosted glass effect on the hero section for a blurry look */
+#hero .hero-content {
+    background: rgba(255, 255, 255, 0.05); /* Semi-transparent white */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 40px;
+}
     background-size: 200% 200%;
     color: #fff;
     line-height: 1.6;
