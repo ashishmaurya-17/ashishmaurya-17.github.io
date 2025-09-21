@@ -11,19 +11,13 @@
     transform: translateY(0);
 }
 
-/* Pulse effect for a button */
-.pulse-btn:hover {
-    animation: pulse 1s infinite;
+/* Subtle background glow effect */
+@keyframes backgroundGlow {
+    0% { background-color: #1a202c; }
+    50% { background-color: #2b313f; }
+    100% { background-color: #1a202c; }
 }
 
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
-}
-
-/* Card lift on hover */
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 30px #ff0080, 0 0 40px #00ffcc;
+body {
+    animation: backgroundGlow 10s infinite;
 }
