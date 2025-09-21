@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Personal Portfolio",
+    "description": "Designing a modern, interactive portfolio to showcase skills, projects, and achievements.",
+    "category": "Web Development",
+    "link": "https://ashishmaurya-17.github.io",
+    "image": "assets/images/portfolio.png"
+  },
+  {
+    "title": "SEO & Website Development",
+    "description": "Built and maintained websites using WordPress and learned SEO strategies to enhance online visibility.",
+    "category": "SEO & Tech",
+    "link": "#",
+    "image": "assets/images/seo.png"
+  },
+  {
+    "title": "Literary Writing",
+    "description": "Working on multiple stories exploring human emotions, fear, love, and perseverance.",
+    "category": "Writing",
+    "link": "#",
+    "image": "assets/images/writing.png"
+  },
+  {
+    "title": "Policy Research Projects",
+    "description": "Planning to conduct research analyzing social, economic, and political policies with actionable insights.",
+    "category": "Research",
+    "link": "#",
+    "image": "assets/images/policy.png"
+  }
+]
