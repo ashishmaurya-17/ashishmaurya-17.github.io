@@ -1,0 +1,36 @@
+/* Responsive adjustments for smaller screens */
+
+@media (max-width: 768px) {
+    /* Main Sections */
+    section {
+        padding: 50px 15px;
+    }
+    section h2 {
+        font-size: 2rem;
+    }
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    /* Card Layouts */
+    .goal-cards, #projectsContainer, #blogContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-card, .blog-card, .card {
+        width: 90%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-content h1 span {
+        display: block;
+    }
+}
