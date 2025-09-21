@@ -19,5 +19,5 @@
 }
 
 body {
-    animation: backgroundGlow 10s infinite; /* animation speed set to 15 seconds */
+    animation: backgroundGlow 15s infinite;
 }
