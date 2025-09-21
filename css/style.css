@@ -7,7 +7,17 @@
     font-family: 'Montserrat', sans-serif;
 }
 body {
-    background: # linear-gradient(135deg, #1a202c, #2d3748);
+    background: linear-gradient(
+        135deg, 
+        #1a202c 0%, 
+        #1a202c 45%, 
+        #FF0000 45%, 
+        #FFD700 55%, 
+        #FFFFFF 55%, 
+        #008000 65%, 
+        #008000 100%
+    );
+    background-size: 200% 200%;
     color: #fff;
     line-height: 1.6;
 }
