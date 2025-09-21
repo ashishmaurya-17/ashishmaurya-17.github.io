@@ -11,13 +11,17 @@ body {
     color: #fff;
     line-height: 1.6;
 }
-/* This creates the frosted glass effect on the hero section for a blurry look */
+
 #hero .hero-content {
-    background: rgba(255, 255, 255, 0.05); /* Semi-transparent white */
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 15px;
-    padding: 40px;
+    position: relative;
+    z-index: 10;
+    max-width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
     background-size: 200% 200%;
     color: #fff;
