@@ -1,0 +1,29 @@
+/* Basic Animations */
+
+/* Fade-in effect on scroll */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Pulse effect for a button */
+.pulse-btn:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Card lift on hover */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px #ff0080, 0 0 40px #00ffcc;
+}
