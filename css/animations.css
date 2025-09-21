@@ -11,13 +11,13 @@
     transform: translateY(0);
 }
 
-/* Subtle background glow effect */
+/* Subtle background glow effect for the new gradient */
 @keyframes backgroundGlow {
-    0% { background-color: #1a202c; }
-    50% { background-color: #2b313f; }
-    100% { background-color: #1a202c; }
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 body {
-    animation: backgroundGlow 10s infinite;
+    animation: backgroundGlow 10s infinite; /* animation speed set to 15 seconds */
 }
