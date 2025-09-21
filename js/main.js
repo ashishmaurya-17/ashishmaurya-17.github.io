@@ -13,7 +13,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.from("#about p", {opacity:0, y:50, duration:1, scrollTrigger:{trigger:"#about", start:"top 80%"}});
 gsap.from("#goals .card", {opacity:0, y:50, stagger:0.2, duration:1, scrollTrigger:{trigger:"#goals", start:"top 80%"}});
-gsap.from("#philosophy ul li", {opacity:0, x:-50, stagger:0.2, duration:1, scrollTrigger:{trigger:"#philosophy", start:"top 80%"}});
 gsap.from("#contact p, #contact a", {opacity:0, y:30, stagger:0.2, duration:1, scrollTrigger:{trigger:"#contact", start:"top 90%"}});
 
 // Modal functionality
