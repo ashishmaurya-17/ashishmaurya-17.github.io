@@ -1,4 +1,4 @@
-/*  
+/*
   CSS Blossoming Flowers at Magical Night.
   Inspired by Yup Nguyen's Artwork: https://dribbble.com/shots/11096994-Virtual-Garden.
   Made with Pure CSS & ♥
@@ -69,8 +69,6 @@ body {
   position: relative;
   transform: scale(0.9);
 }
-
-/* All flower, grass, leaf, and animation CSS from previous message (already checked) */
 
 .flower {
   position: absolute;
