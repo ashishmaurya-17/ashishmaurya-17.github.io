@@ -248,7 +248,7 @@ color: #ff0080;
 .hero-content h1 {font-size: 2.5rem;}
 .hero-content p {font-size: 1rem;}
 }
-/ ===== FLOWER BASE ANIMATION ===== */
+/ ===== FLOWER BASE ANIMATION ===== /
 #flower-base {
 position: absolute;
 top: 50%;
@@ -263,5 +263,5 @@ box-shadow:
 0 0 20px #ff0080,
 0 0 30px #00ffcc,
 0 0 40px #ff0080;
-z-index: 1;
+z-index: -1; / FIX: Changed z-index to a negative value to place it behind the text */
 }
