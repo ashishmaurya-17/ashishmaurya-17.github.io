@@ -7,27 +7,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 body {
-    background: #0f121a;
-    color: #fff;
-    line-height: 1.6;
-}
-
-#hero .hero-content {
-    position: relative;
-    z-index: 10;
-    max-width: 800px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-    background-size: 200% 200%;
-    color: #fff;
-    line-height: 1.6;
-}
-    background-size: 200% 200%;
+    background: #0f0f0f;
     color: #fff;
     line-height: 1.6;
 }
