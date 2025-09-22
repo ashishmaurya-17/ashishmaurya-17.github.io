@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="not-loaded">
+  <!-- particles container (needed by js/particles.js config) -->
+  <div id="particles-js" aria-hidden="true"></div>
+
   <div class="night"></div>
   <div class="flowers">
     <div class="flower flower--1">
@@ -286,6 +289,16 @@
       </div>
     </div>
   </div>
+
+  <!-- Simple placeholders for JS that populates blog/projects/skills.
+       If your blog/projects scripts require different ids/classes, adjust them
+       to match the selectors used in those JS files. -->
+  <div id="blog" aria-live="polite"></div>
+  <div id="projects" aria-live="polite"></div>
+  <canvas id="skills-canvas" width="600" height="400" style="display:block;"></canvas>
+
+  <!-- Load particles.js library so particlesJS(...) is available for js/particles.js -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
